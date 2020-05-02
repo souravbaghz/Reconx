@@ -1,9 +1,14 @@
-Clone all these tools in this src folder and install their requirements:
+## Clone all these tools in this src folder and install their requirements:
 
-https://github.com/maurosoria/dirsearch
+1. https://github.com/maurosoria/dirsearch
 
-https://github.com/blechschmidt/massdns
+2. https://github.com/blechschmidt/massdns
 
-https://github.com/mazen160/struts-pwn
+3. https://github.com/mazen160/struts-pwn
 
-https://github.com/guelfoweb/knock
+5. https://github.com/guelfoweb/knock
+
+6. go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+
+7. snap install amass
+
