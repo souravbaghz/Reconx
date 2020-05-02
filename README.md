@@ -9,11 +9,14 @@ Now i released this in beta version, I will make it better and add more features
 ## Setup
     git clone https://github.com/SouravSec/Reconx
     cd Reconx/src
- Now in src you have to install some tools manually, Read [Installation](src/test)
+ Now in src you have to install some tools manually, Read [Installation](src/read.md)
  
  ## Starting the tool
     bash reconx.sh
     
+    
+ Follow on Social Media:[Instagram](https://www.instagram.com/itninja.official) [Twitter](https://www.twitter.com/souravbaghz)
+ 
  **Credit**
  ---
  Thanks to all those people who made awesome tools for us.
