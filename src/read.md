@@ -12,3 +12,5 @@
 
 7. snap install amass
 
+8. go get github.com/ericchiang/pup
+
