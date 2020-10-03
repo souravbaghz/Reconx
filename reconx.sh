@@ -350,10 +350,10 @@ exploitation(){
 	clear
 	exptlogo
         echo -e ""
-        echo -e "  \e[31m\e[1m[1] SPF Record Checker\e[0m   - Check SPF is Missing or not. "
-	echo -e "  \e[31m\e[1m[2] DNS Zone Transfer\e[0m    - Check ZoneTransfer is Possible or not "
-        echo -e "  \e[31m\e[1m[3] Subdomain Takeover\e[0m   - Check TakeOver is possible or not. "
-	echo -e "  \e[31m\e[1m[4] Apache Structs2 RCE\e[0m  - Exploit For Apache Structs2 RCE. "
+        echo -e "  \e[31m\e[1m[1] SPF Record Checker\e[0m   - Check SPF is Missing or not. "  #SPF Missing
+	echo -e "  \e[31m\e[1m[2] DNS Zone Transfer\e[0m    - Check ZoneTransfer is Possible or not "   #Zone Transfer
+        echo -e "  \e[31m\e[1m[3] Subdomain Takeover\e[0m   - Check TakeOver is possible or not. "    #Subdomain Takeover Possibility
+	echo -e "  \e[31m\e[1m[4] Apache Structs2 RCE\e[0m  - Exploit For Apache Structs2 RCE. "  #RCE Checker Apache
 	echo -e "  \e[31m\e[1m[0] Go Back\e[0m              - Back To Main Menu. "
 	read -p "  [Enter Option:] " exploitnum
 
@@ -439,12 +439,12 @@ menu(){
 	logo
 	echo -e "  \e[1m[+] CHOOSE FROM MENU:                      Beta v1.0 [+]           "
 	echo "  ========================================================"
-	echo "  [1] Reverse IP Lookup    - Get Domain List of an IP."
+	echo "  [1] Reverse IP Lookup    - Get Domain List of an IP."   #IP Lookup
 	echo "  [2] DNS Lookup           -                              "
-	echo "  [3] Asset Discovery      - Get ASNs & domains from ASNs."
-	echo "  [4] Subdomain Finder     - Get Subdomains into Text File."
-        echo "  [5] Resolver             - DNS Resolve."
-	echo "  [8] Exploitation (beta)  - Some Vulnerability Scanners."
+	echo "  [3] Asset Discovery      - Get ASNs & domains from ASNs."  #Finds ASN no.
+	echo "  [4] Subdomain Finder     - Get Subdomains into Text File." #Finds Subdomain and puts into a text file
+        echo "  [5] Resolver             - DNS Resolve."                    #DNS Resolver
+	echo "  [8] Exploitation (beta)  - Some Vulnerability Scanners."    #Vulnerability Scanner
 	echo -e "  [0] Exit                 - Exit the tool.\e[0m"
 	read -p "  [Select Option] " option
 
